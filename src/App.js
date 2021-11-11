@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="container">
+        <h1>COMING SOON!</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Our website is currently under construction.{" "}
+          <div>
+            In the meanwhile, please see our group{" "}
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1PZ1l4C5aK9YbLlY0PMMugpIKPteNx4Ha/view"
+              rel="noreferrer"
+            >
+              profile.
+            </a>
+          </div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="contact">
+          <div className="contactWrapper">
+            <a
+              href="mailto:info@blackcobra.org"
+              target="_blank"
+              rel="noreferrer"
+              className="email"
+            >
+              Email
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=+91-9681822222"
+              target="_blank"
+              rel="noreferrer"
+              className="whatsapp"
+            >
+              Whatsapp
+            </a>
+          </div>
+          <div className="hour">
+            <img src="hour.png" alt="waiting" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
