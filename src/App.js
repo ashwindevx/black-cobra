@@ -1,21 +1,35 @@
+import * as React from "react";
 import "./App.css";
+import { motion } from "framer-motion";
 
-function App() {
+export const App = () => {
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
+
   return (
-    <div className="App">
+    <motion.div
+      className="App"
+      initial="hidden"
+      animate="visible"
+      variants={variants}
+      transition={{ duration: 1 }}
+    >
       <div className="container">
         <h1>COMING SOON!</h1>
         <p>
-          Our website is currently under construction.{" "}
+          Our website is currently under construction, but that doesn’t mean
           <div>
-            In the meanwhile, please see our group{" "}
+            Get in touch with us or{" "}
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1PZ1l4C5aK9YbLlY0PMMugpIKPteNx4Ha/view"
               rel="noreferrer"
             >
-              profile.
-            </a>
+              view our group profile
+            </a>{" "}
+            till our website is back live.
           </div>
         </p>
         <div className="contact">
@@ -34,7 +48,7 @@ function App() {
               rel="noreferrer"
               className="whatsapp"
             >
-              Whatsapp
+              Get in touch
             </a>
           </div>
           <div className="hour">
@@ -42,8 +56,8 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
-}
+};
 
 export default App;

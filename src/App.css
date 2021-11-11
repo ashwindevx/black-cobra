@@ -8,8 +8,10 @@
 
 a {
   font-size: 1.25rem;
-  text-decoration: underline;
   color: #b2b2b2;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 600;
 }
 
 .App {
