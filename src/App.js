@@ -20,17 +20,15 @@ export const App = () => {
         <h1>COMING SOON!</h1>
         <p>
           Our website is currently under construction, but that doesn’t mean
-          <div>
-            Get in touch with us or{" "}
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1PZ1l4C5aK9YbLlY0PMMugpIKPteNx4Ha/view"
-              rel="noreferrer"
-            >
-              view our group profile
-            </a>{" "}
-            till our website is back live.
-          </div>
+          your construction should stop. Get in touch with us or{" "}
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1PZ1l4C5aK9YbLlY0PMMugpIKPteNx4Ha/view"
+            rel="noreferrer"
+          >
+            view our group profile
+          </a>{" "}
+          till our website is back live.
         </p>
         <div className="contact">
           <div className="contactWrapper">
