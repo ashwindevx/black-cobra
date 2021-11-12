@@ -20,7 +20,16 @@ export const App = () => {
         <h1>COMING SOON!</h1>
         <p>
           Our website is currently under construction, but that doesn’t mean
-          your construction should stop. Get in touch with us or{" "}
+          your construction should stop.{" "}
+          <a
+            href="https://api.whatsapp.com/send?phone=+91-9681822222"
+            target="_blank"
+            rel="noreferrer"
+            className="whatsapp"
+          >
+            Get in touch
+          </a>{" "}
+          with us or{" "}
           <a
             target="_blank"
             href="https://drive.google.com/file/d/1PZ1l4C5aK9YbLlY0PMMugpIKPteNx4Ha/view"
